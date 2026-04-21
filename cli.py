@@ -26,7 +26,7 @@ try:
     if args.type == "LIMIT" and not args.price:
         raise ValueError("Price required for LIMIT order")
 
-    print("\n⚠️ Order Summary:")
+    print("\nOrder Summary:")
     print(vars(args))
 
     confirm = input("Proceed? (y/n): ")
@@ -47,13 +47,13 @@ try:
         args.price
     )
 
-    print("\n📊 RESPONSE:")
+    print("\nRESPONSE:")
     print(order)
 
     logging.info(f"Response: {order}")
 
-    print("\n✅ Order placed successfully!")
+    print("\nOrder placed successfully!")
 
 except Exception as e:
     logging.error(str(e))
-    print(f"\n❌ Error: {e}")
+    print(f"\nError: {e}")
