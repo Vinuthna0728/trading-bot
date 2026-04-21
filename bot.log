@@ -1,0 +1,4 @@
+2026-04-21 19:18:15,272 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001, 'price': None}
+2026-04-21 19:18:15,273 - INFO - Response: {'orderId': 'SIM123', 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 'market_price'}
+2026-04-21 19:19:30,007 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 30000.0}
+2026-04-21 19:19:30,008 - INFO - Response: {'orderId': 'SIM123', 'status': 'FILLED', 'executedQty': 0.001, 'avgPrice': 30000.0}
